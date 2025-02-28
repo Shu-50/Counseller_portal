@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.mentor-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  .mentor-list {
+    scrollbar-width: none;
+  }
+  
