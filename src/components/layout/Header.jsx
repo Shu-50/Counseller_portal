@@ -1,7 +1,7 @@
 // import React from 'react';
 import { Facebook, Instagram, Twitter, LogOut } from 'lucide-react';
 import { useAuth } from '../auth/AuthProvider';
-
+import logo from '/src/assets/logo.png'
 const Header = () => {
     const { currentUser, logout } = useAuth();
 
@@ -9,7 +9,7 @@ const Header = () => {
         <header className="bg-red-600 text-white p-4">
             <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
-                    <img src="/api/placeholder/50/50" alt="Logo" className="h-12" />
+                    <img src={logo} alt="Logo" className="h-18" />
                 </div>
 
                 <div className="text-center flex-1">
